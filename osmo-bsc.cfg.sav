@@ -274,10 +274,6 @@ network
   gprs nsvc 0 local udp port 23000
   gprs nsvc 0 remote udp port 23000
   gprs nsvc 0 remote ip 10.0.1.8
-  gprs nsvc 1 nsvci 0
-  gprs nsvc 1 local udp port 0
-  gprs nsvc 1 remote udp port 0
-  gprs nsvc 1 remote ip 0.0.0.0
   trx 0
    rf_locked 0
    arfcn 975
@@ -345,7 +341,7 @@ network
   amr tch-h threshold bts 32 32
   amr tch-h hysteresis bts 8 8
   amr tch-h start-mode auto
-  gprs mode egprs
+  gprs mode gprs
   gprs 11bit_rach_support_for_egprs 0
   gprs routing area 0
   gprs network-control-order nc0
@@ -373,10 +369,6 @@ network
   gprs nsvc 0 local udp port 23001
   gprs nsvc 0 remote udp port 23000
   gprs nsvc 0 remote ip 10.0.1.201
-  gprs nsvc 1 nsvci 0
-  gprs nsvc 1 local udp port 0
-  gprs nsvc 1 remote udp port 0
-  gprs nsvc 1 remote ip 0.0.0.0
   trx 0
    rf_locked 0
    arfcn 871

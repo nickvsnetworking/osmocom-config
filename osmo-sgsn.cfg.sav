@@ -71,7 +71,7 @@ sgsn
  ggsn 0 no echo-interval
  gsup remote-ip 127.0.0.2
  gsup remote-port 4222
- auth-policy accept-all
+ auth-policy remote
  gsup oap-id 0
  ! apn * ggsn 0
  no cdr filename
